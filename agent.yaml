@@ -1,0 +1,30 @@
+spec_version: 0.1.0
+name: saleslay-copilot
+version: 1.0.0
+description: Versioned agency-sales intelligence agent for SalesLay.cloud. Scores leads, classifies inbound replies, drafts/rewrites/personalizes outreach, summarizes threads, assesses meeting readiness, and suggests next best actions.
+model:
+    preferred: anthropic:claude-sonnet-4-6
+    fallback: []
+    constraints:
+        maxTokens: 8192
+        temperature: 0.7
+tools:
+    - cli
+    - read
+    - write
+    - memory
+skills:
+    - lead-qualification-scoring
+    - reply-classification
+    - outreach-copilot
+    - conversation-summary
+    - meeting-readiness
+    - follow-up-suggestion
+runtime:
+    max_turns: 30
+    timeout: 120
+compliance:
+    auto_send_external: false
+    data_isolation: per_tenant_org_client
+    human_in_the_loop: true
+    risk_level: high

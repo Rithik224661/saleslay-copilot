@@ -1,0 +1,13 @@
+entries:
+    - path: b2b-scoring-rubric.md
+      tags: []
+      priority: medium
+      always_load: false
+    - path: reply-taxonomy.md
+      tags: []
+      priority: medium
+      always_load: false
+    - path: compliance-windows.md
+      tags: []
+      priority: medium
+      always_load: false

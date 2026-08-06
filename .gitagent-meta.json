@@ -1,0 +1,7 @@
+{
+  "description": "Versioned agency-sales intelligence agent for SalesLay.cloud. Scores leads, classifies inbound replies, drafts/rewrites/personalizes outreach, summarizes threads, assesses meeting readiness, and suggests next best actions.",
+  "github_url": null,
+  "name": "SalesLay Copilot",
+  "pending_publish": true,
+  "slug": "saleslay-copilot"
+}
